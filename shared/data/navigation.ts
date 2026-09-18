@@ -79,6 +79,13 @@ export const navigationItems: NavigationMenuItem[] = [
         target: '_blank',
       },
       {
+        label: 'BTC Gains Checker',
+        description: 'Privátní sledování hodnoty svého BTC portfolia',
+        icon: 'lucide:chart-line',
+        to: 'https://btcgainschecker.com',
+        target: '_blank',
+      },
+      {
         label: 'Získej financování',
         description: 'Pomůžeme tu najít sponzory tvého projektu.',
         to: '/finance',
